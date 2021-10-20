@@ -38,7 +38,7 @@
 
                                              <a href="" class="btn btn-info btn-sm mr-1" data-toggle="modal" data-target="#editUser{{$user->id}}">
                                                  <i class="fa fa-edit"></i>Edit</a>
-                                             <a href="{{route('userDelete',['id'=>$user->id])}}"class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>Delete</a>
+                                             <a href="{{route('userDelete',['id'=>$user->id])}}"class="btn btn-sm btn-danger"  onclick="return confirm('Are You Sure?')"><i class="fa fa-trash"></i>Delete</a>
 
                                          </div>
                                      </td>
