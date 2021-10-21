@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->text('description');
             $table->string('brand');
             $table->integer('price');
+            $table->integer('quantity');
             $table->integer('alert_stock')->default('100');
             $table->timestamps();
         });

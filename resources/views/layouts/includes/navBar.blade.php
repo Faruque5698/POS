@@ -1,6 +1,6 @@
 <a href="" class="btn btn-outline rounded-pill" data-toggle="modal" data-target="#staticBackdrop"><i class="fa fa-list"></i></a>
 <a href="{{url('users')}}" class="btn btn-outline rounded-pill"><i class="fa fa-user"></i>Users</a>
-<a href="" class="btn btn-outline rounded-pill"><i class="fa fa-truck"></i>Products</a>
+<a href="{{url('product')}}" class="btn btn-outline rounded-pill"><i class="fa fa-truck"></i>Products</a>
 <a href="" class="btn btn-outline rounded-pill"><i class="fa fa-desktop"></i>Cashier</a>
 <a href="" class="btn btn-outline rounded-pill"><i class="fa fa-file"></i>Report</a>
 <a href="" class="btn btn-outline rounded-pill"><i class="fa fa-industry"></i>Supplier</a>

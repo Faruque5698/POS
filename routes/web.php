@@ -53,6 +53,9 @@ Route::get('transactions',[TransectionController::class,'index']);
 //products
 
 Route::get('product',[ProductController::class,'index']);
+Route::post('product/store',[ProductController::class,'store']);
+Route::post('/product/Update',[ProductController::class,'update'])->name('productUpdate');
+Route::get('/product/delete/{id}',[ProductController::class,'destroy'])->name('productDelete');
 
 //supplier
 Route::get('supplier',[SuplierController::class,'index']);

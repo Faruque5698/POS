@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1dddd5f-5878-47a0-9177-b5825e301af5" name="Default Changelist" comment="" />
+    <list default="true" id="f1dddd5f-5878-47a0-9177-b5825e301af5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_10_16_064528_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_10_16_064528_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/includes/navBar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/includes/navBar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +173,7 @@
       <workItem from="1634390027320" duration="5596000" />
       <workItem from="1634439128192" duration="603000" />
       <workItem from="1634529691546" duration="9987000" />
-      <workItem from="1634731082045" duration="6658000" />
+      <workItem from="1634731082045" duration="12976000" />
     </task>
     <servers />
   </component>
